@@ -34,7 +34,10 @@ def main():
     for row in cur:
         print(row)
     
+    cur.close()
+    conn.close()
 
 if __name__ == "__main__":
     main()
+    print("Have a nice day.")
 
