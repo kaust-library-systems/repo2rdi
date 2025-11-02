@@ -1,3 +1,6 @@
+# PROD2RDI
+.env
+
 # Python-generated files
 __pycache__/
 *.py[oc]
