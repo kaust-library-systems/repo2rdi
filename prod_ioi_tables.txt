@@ -1,0 +1,13 @@
+Non_KAUST_Affiliated_Publications_for_FAAR 
+accessKeys                                 
+emailTemplates                            
+groups                                   
+mappings                                
+messages                               
+orcids                                
+putCodes                             
+queryLog                            
+tokens                             
+userSelections                    
+users                            
++

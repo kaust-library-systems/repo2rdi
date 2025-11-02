@@ -1,0 +1,67 @@
+garcm0b@KW20207:~/Work$ for ii in prod_ioi prod_irts prod_repository
+> do
+> echo $ii
+> mysql -h localhost --protocol=tcp --port=3336 -u root -p"$MYSQL_ROOT_PASSWORD" $ii -e "show tables;"
+> done
+prod_ioi
+mysql: [Warning] Using a password on the command line interface can be insecure.
++--------------------------------------------+
+| Tables_in_prod_ioi                         |
++--------------------------------------------+
+| Non_KAUST_Affiliated_Publications_for_FAAR |
+| accessKeys                                 |
+| emailTemplates                             |
+| groups                                     |
+| mappings                                   |
+| messages                                   |
+| orcids                                     |
+| putCodes                                   |
+| queryLog                                   |
+| tokens                                     |
+| userSelections                             |
+| users                                      |
++--------------------------------------------+
+prod_irts
+mysql: [Warning] Using a password on the command line interface can be insecure.
++---------------------+
+| Tables_in_prod_irts |
++---------------------+
+| deletedMetadata     |
+| deletedSourceData   |
+| mappings            |
+| messages            |
+| metadata            |
+| sourceData          |
+| transformations     |
+| users               |
++---------------------+
+prod_repository
+mysql: [Warning] Using a password on the command line interface can be insecure.
++---------------------------+
+| Tables_in_prod_repository |
++---------------------------+
+| authors                   |
+| collections               |
+| communities               |
+| departments               |
+| dois                      |
+| downloads                 |
+| epersons                  |
+| epersonsToGroups          |
+| files                     |
+| groups                    |
+| handles                   |
+| itemFilters               |
+| items                     |
+| itemsToCollections        |
+| itemsToCommunities        |
+| itemsToDepartments        |
+| metadataReviewStatus      |
+| metadataSourceRecords     |
+| orcids                    |
+| pageViews                 |
+| publisherAgreements       |
+| publishers                |
++---------------------------+
+garcm0b@KW20207:~/Work$
+
