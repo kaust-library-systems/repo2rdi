@@ -1,6 +1,8 @@
 # PROD2RDI
 .env
 *swp
+*bkp
+
 
 # Python-generated files
 __pycache__/
